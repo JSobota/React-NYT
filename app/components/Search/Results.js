@@ -105,5 +105,4 @@ var Results = React.createClass({
 
 });
 
-// Makes the component accessible for export
 module.exports = Results;

@@ -65,5 +65,4 @@ var Query = React.createClass({
 
 });
 
-// Makes the component accessible for export
 module.exports = Query;

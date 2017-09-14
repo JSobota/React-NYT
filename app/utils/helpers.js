@@ -1,13 +1,13 @@
-// Include Axios library for HTTP requests
+
 var axios = require("axios");
 
-// API Key for NYT
+
 var APIKey = "d6c8cdc35f93488dbaa04dd9173ea9fb";
 
-// Helper Functions
+
 var helpers = {
 
-    // Run Query
+    
     runQuery: function(term, start, end) {
 
         console.log(term);
@@ -18,7 +18,7 @@ var helpers = {
         var formattedStart = start.trim() + "0101";
         var formattedEnd = end.trim() + "1231";
 
-        // Print a log statement
+        
         console.log("Query is being run");
 
         return axios.get("https://api.nytimes.com/svc/search/v2/articlesearch.json", {
@@ -38,6 +38,6 @@ var helpers = {
     }
 }
 
-// Make the function available for access
+
 module.exports = helpers;
 

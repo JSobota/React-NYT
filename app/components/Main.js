@@ -56,5 +56,4 @@ var Main = React.createClass({
 
 });
 
-// Makes the component accessible for export
 module.exports = Main;
